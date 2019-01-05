@@ -19,7 +19,7 @@ void loop()
 {
   touch_value = touchRead(TOUTCH_PIN);
   Serial.println(touch_value);  // get value using T0
-  if (touch_value < 25)
+  if (touch_value < 5)
   {
     switch (on_value)
     {
